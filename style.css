@@ -1,0 +1,100 @@
+body {
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.food-top-part {
+
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding: 5%;
+}
+
+.img-case {
+
+    width: 60%;
+}
+
+.img-case-item {
+    width: 60%;
+    object-fit: cover;
+
+}
+
+.organ-color {
+
+    color: orangered;
+    padding-right: 5px;
+    padding-bottom: 5px;
+
+
+}
+
+.order {
+
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 20px;
+    background-image: linear-gradient(orangered, red);
+    color: aliceblue;
+}
+
+.link-here {
+
+    margin: 50px 0px;
+}
+
+.middle-part {
+
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.recipie-contain {
+
+    text-align: center;
+
+}
+
+.recipie-item {
+
+    display: flex;
+}
+
+.half-width-recipi {
+    width: 50%;
+    padding: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 15px 30px;
+    border-radius: 30px;
+
+}
+
+.result-part {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+
+}
+
+.bold-out {
+
+    font-weight: bold;
+    text-align: center;
+}
+
+.last-part {
+    text-align: center;
+    background-color: black;
+    color: beige;
+    height: 256px;
+    width: 1440px;
+    padding-top: 100px;
+    border-radius: 10px;
+}
